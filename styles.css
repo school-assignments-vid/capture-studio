@@ -1,0 +1,170 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* HTML Tags */
+
+body {
+  color: hsla(15, 98%, 51%, 1);
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Modular CSS */
+
+.container {
+  padding: 5rem 1.25rem;
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.outline {
+  border: 1px solid hsla(15, 98%, 51%, 1);
+}
+
+/* Header */
+
+.header-container {
+  height: 5rem;
+  max-width: 75rem;
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Hero Content */
+
+.hero-background {
+  background: linear-gradient(
+    234deg,
+    hsla(186, 42%, 9%, 1),
+    hsla(97, 19%, 20%, 1),
+    hsla(90, 16%, 15%, 1)
+  );
+}
+
+.hero-container {
+  padding: 5rem 1.25rem;
+}
+
+.hero-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-content h1 {
+  margin: 0;
+  max-width: 46rem;
+  font-size: 6.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 105%;
+}
+
+.hero-content p {
+  max-width: 26.8rem;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.hero-content button {
+  display: flex;
+  width: 4.25rem;
+  height: 4.25rem;
+  border-radius: 100vh;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid hsla(15, 98%, 51%, 1);
+  background-color: hsla(15, 98%, 51%, 10%);
+}
+
+.hero-content button:hover {
+  background-color: hsla(15, 88%, 43%, 0.253);
+}
+
+.hero-content img {
+  width: 40%;
+  height: 40%;
+}
+
+.hero-image {
+  display: flex;
+  width: 31rem;
+  height: 42.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+
+/* Our Work */
+
+.our-work-background {
+  background-color: hsla(163, 20%, 7%, 1);
+}
+
+.work-container {
+  max-width: 75rem;
+}
+
+/* Sections */
+
+.section-background {
+  background: linear-gradient(
+    90deg,
+    hsla(96, 19%, 20%, 1) 0%,
+    hsla(158, 20%, 8%, 1) 100%
+  );
+}
+
+.section-container {
+  max-width: 75rem;
+}
+
+/* CTA */
+
+.cta-background {
+  background-color: hsla(163, 20%, 7%, 1);
+}
+
+.cta-container {
+  padding: 7.5rem 1.25rem;
+}
+
+/* Footer */
+
+.footer-background {
+  background-color: hsla(163, 20%, 7%, 1);
+}
+
+.footer-container {
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  gap: 5rem;
+  padding: 0rem 1.25rem 2.5rem 1.25rem;
+}
